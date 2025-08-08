@@ -1,0 +1,30 @@
+
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .container {
+    padding: 20px;
+  }
+}
